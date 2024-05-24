@@ -25,6 +25,10 @@ export const ChatInput: React.FC<{
 		}
 	}, []);
 
+	console.log("ChatInput.tsx");
+
+	const a = "b";
+
 	const textareaWrapperRef = useRef<HTMLDivElement>(null);
 
 	return (
